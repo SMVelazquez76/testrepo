@@ -2,7 +2,9 @@
 title: "Hello World - Git repo in R Markdown"
 author: "Sue Velazquez"
 date: "April 13, 2020"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
